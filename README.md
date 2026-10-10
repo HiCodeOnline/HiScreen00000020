@@ -1,0 +1,17 @@
+Open-sourced under the Apache 2.0 licnese
+
+## 文档地址
+
+https://www.hicode.online/en/posts/screen00000020/
+
+## 实现方式
+
+### ArkUI（HarmonyOS）
+
+- HiScreen00000020WithArkUI
+
+## ❤ 支持开源
+
+如果帮助到你，请关注一下作者微信公众号，支持开源
+
+![公众号图片](https://www.hicode.online/wxgzh.webp)

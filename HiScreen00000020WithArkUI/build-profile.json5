@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\hicod\\.ohos\\config\\default_HiScreen00000020WithArkUI_Jx74oWca2RkTBUf5gbJbvQOTO0vPKndQ__anVply4C0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA8CE262681E8E1AA95A250E2F66CA2FB7E44F34B0C92A8C6AFFC5CAA566DCBA9D365F4A8998097",
+          "profile": "C:\\Users\\hicod\\.ohos\\config\\default_HiScreen00000020WithArkUI_Jx74oWca2RkTBUf5gbJbvQOTO0vPKndQ__anVply4C0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\hicod\\.ohos\\config\\default_HiScreen00000020WithArkUI_Jx74oWca2RkTBUf5gbJbvQOTO0vPKndQ__anVply4C0=.p12",
+          "storePassword": "0000001BA23B420EDCF037F6D756AC8A475FF767B3674CF38335F71879A5C67003D677A72480DE807BEC78"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
