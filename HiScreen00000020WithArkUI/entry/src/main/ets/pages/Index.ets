@@ -262,7 +262,7 @@ struct Index {
           bottom: this.bottomRectHeight,
         })
       }
-      .width('100$')
+      .width('100%')
       .padding({
         left: 12,
         right: 12,
@@ -425,7 +425,7 @@ struct Index {
           bottom: this.bottomRectHeight,
         })
       }
-      .width('100$')
+      .width('100%')
       .padding({
         left: 12,
         right: 12,
@@ -579,7 +579,7 @@ struct Index {
           bottom: this.bottomRectHeight,
         })
       }
-      .width('100$')
+      .width('100%')
       .padding({
         left: 12,
         right: 12,
@@ -656,7 +656,7 @@ struct Index {
             GridItem() {
               TextInput({ placeholder: '', text: this.code1 })
                 .id('code1_input')
-                .type(InputType.PhoneNumber)
+                .type(InputType.Number)
                 .maxLength(1)
                 .height(64)
                 .fontWeight(FontWeight.Bold)
@@ -683,7 +683,7 @@ struct Index {
             GridItem() {
               TextInput({ placeholder: '', text: this.code2 })
                 .id('code2_input')
-                .type(InputType.PhoneNumber)
+                .type(InputType.Number)
                 .maxLength(1)
                 .height(64)
                 .fontWeight(FontWeight.Bold)
@@ -709,7 +709,7 @@ struct Index {
             }
             GridItem() { TextInput({ placeholder: '', text: this.code3 })
               .id('code3_input')
-              .type(InputType.PhoneNumber)
+              .type(InputType.Number)
               .maxLength(1)
               .height(64)
               .fontWeight(FontWeight.Bold)
@@ -735,7 +735,7 @@ struct Index {
             GridItem() {
               TextInput({ placeholder: '', text: this.code4 })
                 .id('code4_input')
-                .type(InputType.PhoneNumber)
+                .type(InputType.Number)
                 .maxLength(1)
                 .height(64)
                 .fontWeight(FontWeight.Bold)
@@ -761,7 +761,7 @@ struct Index {
             GridItem() {
               TextInput({ placeholder: '', text: this.code5 })
                 .id('code5_input')
-                .type(InputType.PhoneNumber)
+                .type(InputType.Number)
                 .maxLength(1)
                 .height(64)
                 .fontWeight(FontWeight.Bold)
@@ -788,7 +788,7 @@ struct Index {
             GridItem() {
               TextInput({ placeholder: '', text: this.code6 })
                 .id('code6_input')
-                .type(InputType.PhoneNumber)
+                .type(InputType.Number)
                 .maxLength(1)
                 .height(64)
                 .fontWeight(FontWeight.Bold)
